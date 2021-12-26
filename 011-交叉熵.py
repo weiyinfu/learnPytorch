@@ -1,5 +1,7 @@
 import torch as t
-
+"""
+pytorch中的cross entropy已经有softmax了，所以不要进行两次softmax
+"""
 f = t.nn.CrossEntropyLoss()
 a = t.rand(1, 3, dtype=t.float64)
 print(a)
