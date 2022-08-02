@@ -1,0 +1,6 @@
+.ipynb_checkpoints/
+.ideal/
+*.iml
+__pycache__/
+data/
+*.pkl
